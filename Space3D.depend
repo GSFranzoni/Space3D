@@ -1,0 +1,2795 @@
+# depslib dependency file v1.0
+1544323126 source:c:\users\guilherme franzoni\documents\codeblocks projects\space3d\camera.cpp
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtx/rotate_vector.hpp>
+	<iostream>
+	"Camera.h"
+
+1544390274 source:c:\users\guilherme franzoni\documents\codeblocks projects\space3d\main.cpp
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<iostream>
+	<ctype.h>
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtx/rotate_vector.hpp>
+	<vector>
+	<sstream>
+	<fstream>
+	"Camera.h"
+	"Util.h"
+	"Ship.h"
+	"Input.cpp"
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\windows.h
+	<winresrc.h>
+	<stdarg.h>
+	<windef.h>
+	<wincon.h>
+	<winbase.h>
+	<wingdi.h>
+	<winuser.h>
+	<winnls.h>
+	<winver.h>
+	<winnetwk.h>
+	<winreg.h>
+	<winsvc.h>
+	<cderr.h>
+	<dde.h>
+	<ddeml.h>
+	<dlgs.h>
+	<imm.h>
+	<lzexpand.h>
+	<mmsystem.h>
+	<nb30.h>
+	<rpc.h>
+	<shellapi.h>
+	<winperf.h>
+	<commdlg.h>
+	<winspool.h>
+	<winsock2.h>
+	<winsock.h>
+	<ole2.h>
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winresrc.h
+	<winuser.h>
+	<winnt.h>
+	<winver.h>
+	<dde.h>
+	<dlgs.h>
+	<commctrl.h>
+
+1301111164 c:\program files (x86)\codeblocks\mingw\include\winuser.h
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winnt.h
+	<winerror.h>
+	<string.h>
+	<basetsd.h>
+	<pshpack4.h>
+	<poppack.h>
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winerror.h
+
+1341006776 c:\program files (x86)\codeblocks\mingw\include\string.h
+	<_mingw.h>
+	<stddef.h>
+
+1341006770 c:\program files (x86)\codeblocks\mingw\include\_mingw.h
+
+1301111148 c:\program files (x86)\codeblocks\mingw\include\basetsd.h
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\pshpack4.h
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\poppack.h
+
+1301111164 c:\program files (x86)\codeblocks\mingw\include\winver.h
+
+1301111148 c:\program files (x86)\codeblocks\mingw\include\dde.h
+
+1301111150 c:\program files (x86)\codeblocks\mingw\include\dlgs.h
+
+1301111148 c:\program files (x86)\codeblocks\mingw\include\commctrl.h
+	<prsht.h>
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\prsht.h
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\windef.h
+	<winnt.h>
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\wincon.h
+
+1301111160 c:\program files (x86)\codeblocks\mingw\include\winbase.h
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\wingdi.h
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winnls.h
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winnetwk.h
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winreg.h
+
+1301111164 c:\program files (x86)\codeblocks\mingw\include\winsvc.h
+
+1301111148 c:\program files (x86)\codeblocks\mingw\include\cderr.h
+
+1301111148 c:\program files (x86)\codeblocks\mingw\include\ddeml.h
+
+1301111150 c:\program files (x86)\codeblocks\mingw\include\imm.h
+
+1301111154 c:\program files (x86)\codeblocks\mingw\include\lzexpand.h
+
+1301111154 c:\program files (x86)\codeblocks\mingw\include\mmsystem.h
+
+1301111154 c:\program files (x86)\codeblocks\mingw\include\nb30.h
+
+1301111158 c:\program files (x86)\codeblocks\mingw\include\rpc.h
+	<windows.h>
+	<rpcdce.h>
+	<rpcnsi.h>
+	<rpcnterr.h>
+	<winerror.h>
+	<excpt.h>
+
+1301111158 c:\program files (x86)\codeblocks\mingw\include\rpcdce.h
+	<basetyps.h>
+	<rpcdcep.h>
+
+1301111148 c:\program files (x86)\codeblocks\mingw\include\basetyps.h
+
+1301111158 c:\program files (x86)\codeblocks\mingw\include\rpcdcep.h
+
+1301111158 c:\program files (x86)\codeblocks\mingw\include\rpcnsi.h
+
+1301111158 c:\program files (x86)\codeblocks\mingw\include\rpcnterr.h
+
+1341006772 c:\program files (x86)\codeblocks\mingw\include\excpt.h
+	<_mingw.h>
+	<windef.h>
+
+1301111160 c:\program files (x86)\codeblocks\mingw\include\shellapi.h
+	<pshpack2.h>
+	<poppack.h>
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\pshpack2.h
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winperf.h
+
+1301111148 c:\program files (x86)\codeblocks\mingw\include\commdlg.h
+	<unknwn.h>
+	<prsht.h>
+
+1301111160 c:\program files (x86)\codeblocks\mingw\include\unknwn.h
+	<windows.h>
+	<objfwd.h>
+	<wtypes.h>
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\objfwd.h
+	<basetyps.h>
+
+1301111164 c:\program files (x86)\codeblocks\mingw\include\wtypes.h
+	<rpc.h>
+	<rpcndr.h>
+
+1301111158 c:\program files (x86)\codeblocks\mingw\include\rpcndr.h
+	<rpcnsip.h>
+	<objfwd.h>
+
+1301111158 c:\program files (x86)\codeblocks\mingw\include\rpcnsip.h
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winspool.h
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winsock2.h
+	<windows.h>
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winsock.h
+	<windows.h>
+	<mswsock.h>
+
+1301111154 c:\program files (x86)\codeblocks\mingw\include\mswsock.h
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\ole2.h
+	<winerror.h>
+	<objbase.h>
+	<olectlid.h>
+	<oleauto.h>
+	<oleidl.h>
+
+1301111154 c:\program files (x86)\codeblocks\mingw\include\objbase.h
+	<rpc.h>
+	<rpcndr.h>
+	<stdlib.h>
+	<basetyps.h>
+	<wtypes.h>
+	<unknwn.h>
+	<objidl.h>
+	<cguid.h>
+
+1341006776 c:\program files (x86)\codeblocks\mingw\include\stdlib.h
+	<_mingw.h>
+	<stddef.h>
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\objidl.h
+	<objfwd.h>
+
+1301111148 c:\program files (x86)\codeblocks\mingw\include\cguid.h
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\olectlid.h
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\oleauto.h
+	<oaidl.h>
+
+1301111154 c:\program files (x86)\codeblocks\mingw\include\oaidl.h
+	<windows.h>
+	<ole2.h>
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\oleidl.h
+	<objfwd.h>
+
+1542867000 c:\program files (x86)\codeblocks\mingw\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1301111164 c:\program files (x86)\codeblocks\mingw\include\gl\gl.h
+
+1301111164 c:\program files (x86)\codeblocks\mingw\include\gl\glu.h
+	<stddef.h>
+	<GL/gl.h>
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\glm.hpp
+	"detail/_fixes.hpp"
+	"detail/setup.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1535531570 c:\program files (x86)\codeblocks\mingw\include\glm\detail\_fixes.hpp
+	<cmath>
+
+1540992241 c:\program files (x86)\codeblocks\mingw\include\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+	<cstdint>
+	<type_traits>
+
+1535531570 c:\program files (x86)\codeblocks\mingw\include\glm\simd\platform.h
+	<cuda.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1535531570 c:\program files (x86)\codeblocks\mingw\include\glm\fwd.hpp
+	"detail/qualifier.hpp"
+
+1537202926 c:\program files (x86)\codeblocks\mingw\include\glm\detail\qualifier.hpp
+	"setup.hpp"
+
+1533818823 c:\program files (x86)\codeblocks\mingw\include\glm\vec2.hpp
+	"./ext/vector_bool2.hpp"
+	"./ext/vector_bool2_precision.hpp"
+	"./ext/vector_float2.hpp"
+	"./ext/vector_float2_precision.hpp"
+	"./ext/vector_double2.hpp"
+	"./ext/vector_double2_precision.hpp"
+	"./ext/vector_int2.hpp"
+	"./ext/vector_int2_precision.hpp"
+	"./ext/vector_uint2.hpp"
+	"./ext/vector_uint2_precision.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\vector_bool2.hpp
+	"../detail/type_vec2.hpp"
+
+1540992241 c:\program files (x86)\codeblocks\mingw\include\glm\detail\type_vec2.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1535531570 c:\program files (x86)\codeblocks\mingw\include\glm\detail\_swizzle.hpp
+
+1535531570 c:\program files (x86)\codeblocks\mingw\include\glm\detail\_swizzle_func.hpp
+
+1540992241 c:\program files (x86)\codeblocks\mingw\include\glm\detail\type_vec2.inl
+	"./compute_vector_relational.hpp"
+
+1533818821 c:\program files (x86)\codeblocks\mingw\include\glm\detail\compute_vector_relational.hpp
+	"setup.hpp"
+	<limits>
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\vector_bool2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\vector_float2.hpp
+	"../detail/type_vec2.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\vector_float2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\vector_double2.hpp
+	"../detail/type_vec2.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\vector_double2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\vector_int2.hpp
+	"../detail/type_vec2.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\vector_int2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\vector_uint2.hpp
+	"../detail/type_vec2.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\vector_uint2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1533818823 c:\program files (x86)\codeblocks\mingw\include\glm\vec3.hpp
+	"./ext/vector_bool3.hpp"
+	"./ext/vector_bool3_precision.hpp"
+	"./ext/vector_float3.hpp"
+	"./ext/vector_float3_precision.hpp"
+	"./ext/vector_double3.hpp"
+	"./ext/vector_double3_precision.hpp"
+	"./ext/vector_int3.hpp"
+	"./ext/vector_int3_precision.hpp"
+	"./ext/vector_uint3.hpp"
+	"./ext/vector_uint3_precision.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\vector_bool3.hpp
+	"../detail/type_vec3.hpp"
+
+1540992241 c:\program files (x86)\codeblocks\mingw\include\glm\detail\type_vec3.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1540992241 c:\program files (x86)\codeblocks\mingw\include\glm\detail\type_vec3.inl
+	"compute_vector_relational.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\vector_bool3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\vector_float3.hpp
+	"../detail/type_vec3.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\vector_float3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\vector_double3.hpp
+	"../detail/type_vec3.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\vector_double3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\vector_int3.hpp
+	"../detail/type_vec3.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\vector_int3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\vector_uint3.hpp
+	"../detail/type_vec3.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\vector_uint3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1533818823 c:\program files (x86)\codeblocks\mingw\include\glm\vec4.hpp
+	"./ext/vector_bool4.hpp"
+	"./ext/vector_bool4_precision.hpp"
+	"./ext/vector_float4.hpp"
+	"./ext/vector_float4_precision.hpp"
+	"./ext/vector_double4.hpp"
+	"./ext/vector_double4_precision.hpp"
+	"./ext/vector_int4.hpp"
+	"./ext/vector_int4_precision.hpp"
+	"./ext/vector_uint4.hpp"
+	"./ext/vector_uint4_precision.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\vector_bool4.hpp
+	"../detail/type_vec4.hpp"
+
+1540992241 c:\program files (x86)\codeblocks\mingw\include\glm\detail\type_vec4.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1540992241 c:\program files (x86)\codeblocks\mingw\include\glm\detail\type_vec4.inl
+	"compute_vector_relational.hpp"
+	"type_vec4_simd.inl"
+
+1535531570 c:\program files (x86)\codeblocks\mingw\include\glm\detail\type_vec4_simd.inl
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\vector_bool4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\vector_float4.hpp
+	"../detail/type_vec4.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\vector_float4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\vector_double4.hpp
+	"../detail/type_vec4.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\vector_double4_precision.hpp
+	"../detail/setup.hpp"
+	"../detail/type_vec4.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\vector_int4.hpp
+	"../detail/type_vec4.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\vector_int4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\vector_uint4.hpp
+	"../detail/type_vec4.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\vector_uint4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1533818822 c:\program files (x86)\codeblocks\mingw\include\glm\mat2x2.hpp
+	"./ext/matrix_double2x2.hpp"
+	"./ext/matrix_double2x2_precision.hpp"
+	"./ext/matrix_float2x2.hpp"
+	"./ext/matrix_float2x2_precision.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\matrix_double2x2.hpp
+	"../detail/type_mat2x2.hpp"
+
+1533818822 c:\program files (x86)\codeblocks\mingw\include\glm\detail\type_mat2x2.hpp
+	"type_vec2.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1535531570 c:\program files (x86)\codeblocks\mingw\include\glm\detail\type_mat2x2.inl
+	"../matrix.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\matrix.hpp
+	"detail/qualifier.hpp"
+	"detail/setup.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"detail/func_matrix.inl"
+
+1533818822 c:\program files (x86)\codeblocks\mingw\include\glm\mat2x3.hpp
+	"./ext/matrix_double2x3.hpp"
+	"./ext/matrix_double2x3_precision.hpp"
+	"./ext/matrix_float2x3.hpp"
+	"./ext/matrix_float2x3_precision.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\matrix_double2x3.hpp
+	"../detail/type_mat2x3.hpp"
+
+1533818822 c:\program files (x86)\codeblocks\mingw\include\glm\detail\type_mat2x3.hpp
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1535531570 c:\program files (x86)\codeblocks\mingw\include\glm\detail\type_mat2x3.inl
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\matrix_double2x3_precision.hpp
+	"../detail/type_mat2x3.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\matrix_float2x3.hpp
+	"../detail/type_mat2x3.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\matrix_float2x3_precision.hpp
+	"../detail/type_mat2x3.hpp"
+
+1533818822 c:\program files (x86)\codeblocks\mingw\include\glm\mat2x4.hpp
+	"./ext/matrix_double2x4.hpp"
+	"./ext/matrix_double2x4_precision.hpp"
+	"./ext/matrix_float2x4.hpp"
+	"./ext/matrix_float2x4_precision.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\matrix_double2x4.hpp
+	"../detail/type_mat2x4.hpp"
+
+1533818822 c:\program files (x86)\codeblocks\mingw\include\glm\detail\type_mat2x4.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1535531570 c:\program files (x86)\codeblocks\mingw\include\glm\detail\type_mat2x4.inl
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\matrix_double2x4_precision.hpp
+	"../detail/type_mat2x4.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\matrix_float2x4.hpp
+	"../detail/type_mat2x4.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\matrix_float2x4_precision.hpp
+	"../detail/type_mat2x4.hpp"
+
+1533818822 c:\program files (x86)\codeblocks\mingw\include\glm\mat3x2.hpp
+	"./ext/matrix_double3x2.hpp"
+	"./ext/matrix_double3x2_precision.hpp"
+	"./ext/matrix_float3x2.hpp"
+	"./ext/matrix_float3x2_precision.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\matrix_double3x2.hpp
+	"../detail/type_mat3x2.hpp"
+
+1533818822 c:\program files (x86)\codeblocks\mingw\include\glm\detail\type_mat3x2.hpp
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1535531570 c:\program files (x86)\codeblocks\mingw\include\glm\detail\type_mat3x2.inl
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\matrix_double3x2_precision.hpp
+	"../detail/type_mat3x2.hpp"
+
+1535531570 c:\program files (x86)\codeblocks\mingw\include\glm\ext\matrix_float3x2.hpp
+	"../detail/type_mat3x2.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\matrix_float3x2_precision.hpp
+	"../detail/type_mat3x2.hpp"
+
+1533818822 c:\program files (x86)\codeblocks\mingw\include\glm\mat3x3.hpp
+	"./ext/matrix_double3x3.hpp"
+	"./ext/matrix_double3x3_precision.hpp"
+	"./ext/matrix_float3x3.hpp"
+	"./ext/matrix_float3x3_precision.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\matrix_double3x3.hpp
+	"../detail/type_mat3x3.hpp"
+
+1533818822 c:\program files (x86)\codeblocks\mingw\include\glm\detail\type_mat3x3.hpp
+	"type_vec3.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1535531570 c:\program files (x86)\codeblocks\mingw\include\glm\detail\type_mat3x3.inl
+	"../matrix.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\matrix_double3x3_precision.hpp
+	"../detail/type_mat3x3.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\matrix_float3x3.hpp
+	"../detail/type_mat3x3.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\matrix_float3x3_precision.hpp
+	"../detail/type_mat3x3.hpp"
+
+1533818822 c:\program files (x86)\codeblocks\mingw\include\glm\mat3x4.hpp
+	"./ext/matrix_double3x4.hpp"
+	"./ext/matrix_double3x4_precision.hpp"
+	"./ext/matrix_float3x4.hpp"
+	"./ext/matrix_float3x4_precision.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\matrix_double3x4.hpp
+	"../detail/type_mat3x4.hpp"
+
+1533818822 c:\program files (x86)\codeblocks\mingw\include\glm\detail\type_mat3x4.hpp
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1535531570 c:\program files (x86)\codeblocks\mingw\include\glm\detail\type_mat3x4.inl
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\matrix_double3x4_precision.hpp
+	"../detail/type_mat3x4.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\matrix_float3x4.hpp
+	"../detail/type_mat3x4.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\matrix_float3x4_precision.hpp
+	"../detail/type_mat3x4.hpp"
+
+1533818822 c:\program files (x86)\codeblocks\mingw\include\glm\mat4x2.hpp
+	"./ext/matrix_double4x2.hpp"
+	"./ext/matrix_double4x2_precision.hpp"
+	"./ext/matrix_float4x2.hpp"
+	"./ext/matrix_float4x2_precision.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\matrix_double4x2.hpp
+	"../detail/type_mat4x2.hpp"
+
+1533818822 c:\program files (x86)\codeblocks\mingw\include\glm\detail\type_mat4x2.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1535531570 c:\program files (x86)\codeblocks\mingw\include\glm\detail\type_mat4x2.inl
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\matrix_double4x2_precision.hpp
+	"../detail/type_mat4x2.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\matrix_float4x2.hpp
+	"../detail/type_mat4x2.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\matrix_float4x2_precision.hpp
+	"../detail/type_mat2x2.hpp"
+
+1533818822 c:\program files (x86)\codeblocks\mingw\include\glm\mat4x3.hpp
+	"./ext/matrix_double4x3.hpp"
+	"./ext/matrix_double4x3_precision.hpp"
+	"./ext/matrix_float4x3.hpp"
+	"./ext/matrix_float4x3_precision.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\matrix_double4x3.hpp
+	"../detail/type_mat4x3.hpp"
+
+1533818822 c:\program files (x86)\codeblocks\mingw\include\glm\detail\type_mat4x3.hpp
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1535531570 c:\program files (x86)\codeblocks\mingw\include\glm\detail\type_mat4x3.inl
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\matrix_double4x3_precision.hpp
+	"../detail/type_mat4x3.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\matrix_float4x3.hpp
+	"../detail/type_mat4x3.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\matrix_float4x3_precision.hpp
+	"../detail/type_mat4x3.hpp"
+
+1533818822 c:\program files (x86)\codeblocks\mingw\include\glm\mat4x4.hpp
+	"./ext/matrix_double4x4.hpp"
+	"./ext/matrix_double4x4_precision.hpp"
+	"./ext/matrix_float4x4.hpp"
+	"./ext/matrix_float4x4_precision.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\matrix_double4x4.hpp
+	"../detail/type_mat4x4.hpp"
+
+1533818822 c:\program files (x86)\codeblocks\mingw\include\glm\detail\type_mat4x4.hpp
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1535531570 c:\program files (x86)\codeblocks\mingw\include\glm\detail\type_mat4x4.inl
+	"../matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1533818822 c:\program files (x86)\codeblocks\mingw\include\glm\detail\type_mat4x4_simd.inl
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\matrix_double4x4_precision.hpp
+	"../detail/type_mat4x4.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\matrix_float4x4.hpp
+	"../detail/type_mat4x4.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\matrix_float4x4_precision.hpp
+	"../detail/type_mat4x4.hpp"
+
+1535531570 c:\program files (x86)\codeblocks\mingw\include\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\geometric.hpp
+	"detail/type_vec3.hpp"
+	"detail/func_geometric.inl"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\detail\func_geometric.inl
+	"../exponential.hpp"
+	"../common.hpp"
+	"func_geometric_simd.inl"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\exponential.hpp
+	"detail/type_vec1.hpp"
+	"detail/type_vec2.hpp"
+	"detail/type_vec3.hpp"
+	"detail/type_vec4.hpp"
+	<cmath>
+	"detail/func_exponential.inl"
+
+1540992241 c:\program files (x86)\codeblocks\mingw\include\glm\detail\type_vec1.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1540992241 c:\program files (x86)\codeblocks\mingw\include\glm\detail\type_vec1.inl
+	"./compute_vector_relational.hpp"
+
+1533818821 c:\program files (x86)\codeblocks\mingw\include\glm\detail\func_exponential.inl
+	"../vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\vector_relational.hpp
+	"detail/qualifier.hpp"
+	"detail/setup.hpp"
+	"detail/func_vector_relational.inl"
+
+1535531570 c:\program files (x86)\codeblocks\mingw\include\glm\detail\func_vector_relational.inl
+	"func_vector_relational_simd.inl"
+
+1535531570 c:\program files (x86)\codeblocks\mingw\include\glm\detail\func_vector_relational_simd.inl
+
+1535531570 c:\program files (x86)\codeblocks\mingw\include\glm\detail\_vectorize.hpp
+
+1533818821 c:\program files (x86)\codeblocks\mingw\include\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1531731968 c:\program files (x86)\codeblocks\mingw\include\glm\simd\exponential.h
+	"platform.h"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\common.hpp
+	"detail/qualifier.hpp"
+	"detail/_fixes.hpp"
+	"detail/func_common.inl"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\detail\func_common.inl
+	"../vector_relational.hpp"
+	"compute_common.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\detail\compute_common.hpp
+	"setup.hpp"
+	<limits>
+
+1535531570 c:\program files (x86)\codeblocks\mingw\include\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1531731968 c:\program files (x86)\codeblocks\mingw\include\glm\simd\common.h
+	"platform.h"
+
+1525695782 c:\program files (x86)\codeblocks\mingw\include\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1525695782 c:\program files (x86)\codeblocks\mingw\include\glm\simd\geometric.h
+	"common.h"
+
+1535531570 c:\program files (x86)\codeblocks\mingw\include\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"../geometric.hpp"
+	"../simd/matrix.h"
+	<cstring>
+
+1525695782 c:\program files (x86)\codeblocks\mingw\include\glm\simd\matrix.h
+	"geometric.h"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\matrix_double2x2_precision.hpp
+	"../detail/type_mat2x2.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\matrix_float2x2.hpp
+	"../detail/type_mat2x2.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\matrix_float2x2_precision.hpp
+	"../detail/type_mat2x2.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\trigonometric.hpp
+	"detail/setup.hpp"
+	"detail/qualifier.hpp"
+	"detail/func_trigonometric.inl"
+
+1535531570 c:\program files (x86)\codeblocks\mingw\include\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1464685461 c:\program files (x86)\codeblocks\mingw\include\glm\detail\func_trigonometric_simd.inl
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\packing.hpp
+	"./ext/vector_uint2.hpp"
+	"./ext/vector_float2.hpp"
+	"./ext/vector_float4.hpp"
+	"detail/func_packing.inl"
+
+1535531570 c:\program files (x86)\codeblocks\mingw\include\glm\detail\func_packing.inl
+	"../common.hpp"
+	"type_half.hpp"
+	"func_packing_simd.inl"
+
+1535531570 c:\program files (x86)\codeblocks\mingw\include\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1535531570 c:\program files (x86)\codeblocks\mingw\include\glm\detail\type_half.inl
+
+1535531570 c:\program files (x86)\codeblocks\mingw\include\glm\detail\func_packing_simd.inl
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\integer.hpp
+	"detail/qualifier.hpp"
+	"common.hpp"
+	"vector_relational.hpp"
+	"detail/func_integer.inl"
+
+1540992241 c:\program files (x86)\codeblocks\mingw\include\glm\detail\func_integer.inl
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1535531570 c:\program files (x86)\codeblocks\mingw\include\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1525695782 c:\program files (x86)\codeblocks\mingw\include\glm\simd\integer.h
+
+1535531570 c:\program files (x86)\codeblocks\mingw\include\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../ext/matrix_projection.hpp"
+	"../ext/matrix_clip_space.hpp"
+	"../ext/matrix_transform.hpp"
+	"matrix_transform.inl"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\matrix_projection.hpp
+	"../gtc/constants.hpp"
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+	"matrix_projection.inl"
+
+1535531570 c:\program files (x86)\codeblocks\mingw\include\glm\gtc\constants.hpp
+	"../ext/scalar_constants.hpp"
+	"constants.inl"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\scalar_constants.hpp
+	"../detail/setup.hpp"
+	"scalar_constants.inl"
+
+1535531570 c:\program files (x86)\codeblocks\mingw\include\glm\ext\scalar_constants.inl
+	<limits>
+
+1535531570 c:\program files (x86)\codeblocks\mingw\include\glm\gtc\constants.inl
+
+1535531570 c:\program files (x86)\codeblocks\mingw\include\glm\ext\matrix_projection.inl
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\matrix_clip_space.hpp
+	"../ext/scalar_constants.hpp"
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"matrix_clip_space.inl"
+
+1535531570 c:\program files (x86)\codeblocks\mingw\include\glm\ext\matrix_clip_space.inl
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\matrix_transform.hpp
+	"../gtc/constants.hpp"
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+	"matrix_transform.inl"
+
+1535531570 c:\program files (x86)\codeblocks\mingw\include\glm\ext\matrix_transform.inl
+
+1535531570 c:\program files (x86)\codeblocks\mingw\include\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1533818822 c:\program files (x86)\codeblocks\mingw\include\glm\gtx\rotate_vector.hpp
+	"../gtx/transform.hpp"
+	"../gtc/epsilon.hpp"
+	"../ext/vector_relational.hpp"
+	"../glm.hpp"
+	"rotate_vector.inl"
+
+1531731968 c:\program files (x86)\codeblocks\mingw\include\glm\gtx\transform.hpp
+	"../glm.hpp"
+	"../gtc/matrix_transform.hpp"
+	"transform.inl"
+
+1533818822 c:\program files (x86)\codeblocks\mingw\include\glm\gtx\transform.inl
+
+1531731968 c:\program files (x86)\codeblocks\mingw\include\glm\gtc\epsilon.hpp
+	"../detail/setup.hpp"
+	"../detail/qualifier.hpp"
+	"epsilon.inl"
+
+1533818822 c:\program files (x86)\codeblocks\mingw\include\glm\gtc\epsilon.inl
+	"../vector_relational.hpp"
+	"../common.hpp"
+
+1540992241 c:\program files (x86)\codeblocks\mingw\include\glm\ext\vector_relational.hpp
+	"../detail/qualifier.hpp"
+	"vector_relational.inl"
+
+1540992241 c:\program files (x86)\codeblocks\mingw\include\glm\ext\vector_relational.inl
+	"../vector_relational.hpp"
+	"../common.hpp"
+	"../detail/qualifier.hpp"
+	"../detail/type_float.hpp"
+
+1540992241 c:\program files (x86)\codeblocks\mingw\include\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1533818822 c:\program files (x86)\codeblocks\mingw\include\glm\gtx\rotate_vector.inl
+
+1544323026 c:\users\guilherme franzoni\documents\codeblocks projects\space3d\camera.h
+	<GL/glut.h>
+	<glm/vec3.hpp>
+
+1341006770 c:\program files (x86)\codeblocks\mingw\include\ctype.h
+	<_mingw.h>
+	<stddef.h>
+
+1544314971 source:c:\users\guilherme franzoni\documents\codeblocks projects\space3d\object.cpp
+	"Object.h"
+	"Util.h"
+	<GL/glut.h>
+	<fstream>
+
+1544323136 source:c:\users\guilherme franzoni\documents\codeblocks projects\space3d\ship.cpp
+	"Ship.h"
+
+1544314882 c:\users\guilherme franzoni\documents\codeblocks projects\space3d\object.h
+	<iostream>
+	<vector>
+
+1544314256 c:\users\guilherme franzoni\documents\codeblocks projects\space3d\util.h
+	<iostream>
+	<vector>
+	<fstream>
+
+1544314365 source:c:\users\guilherme franzoni\documents\codeblocks projects\space3d\util.cpp
+	"Util.h"
+	<sstream>
+
+1544323008 c:\users\guilherme franzoni\documents\codeblocks projects\space3d\ship.h
+	<glm/glm.hpp>
+	"Object.h"
+	"Shot.h"
+	<vector>
+
+1544390943 c:\users\guilherme franzoni\documents\codeblocks projects\space3d\shot.h
+	<glm/glm.hpp>
+	"Object.h"
+
+1544323141 source:c:\users\guilherme franzoni\documents\codeblocks projects\space3d\shot.cpp
+	"Shot.h"
+	<glm/glm.hpp>
+
+1544323122 source:c:\users\guilherme franzoni\documents\codeblocks projects\space3d\asteroid.cpp
+	"Asteroid.h"
+
+1544323031 c:\users\guilherme franzoni\documents\codeblocks projects\space3d\asteroid.h
+	<glm/glm.hpp>
+	"Object.h"
+	"Shot.h"
+	<vector>
+
+1544323817 source:c:\users\guilherme franzoni\documents\codeblocks projects\space3d\keyboard.cpp
+	"Keyboard.h"
+
+1544323779 c:\users\guilherme franzoni\documents\codeblocks projects\space3d\keyboard.h
+
+1544325481 c:\users\guilherme franzoni\documents\codeblocks projects\space3d\input.h
+	"Camera.h"
+	"Ship.h"
+
+1544325750 source:c:\users\guilherme franzoni\documents\codeblocks projects\space3d\input.cpp
+	"Input.h"
+	<GL/glut.h>
+
+1544325750 c:\users\guilherme franzoni\documents\codeblocks projects\space3d\input.cpp
+	"Input.h"
+	<GL/glut.h>
+
+1502813773 c:\users\guilherme franzoni\documents\codeblocks projects\space3d\src\soil.h
+
+1544649990 source:c:\users\aluno\downloads\space3d\asteroid.cpp
+	"Asteroid.h"
+	<windows.h>
+	<GL/glut.h>
+	<GL/glut.h>
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
+
+1544648788 c:\users\aluno\downloads\space3d\asteroid.h
+	<glm/glm.hpp>
+	"Object.h"
+	"Shot.h"
+	<vector>
+	<windows.h>
+	<GL/glut.h>
+
+1544649983 c:\users\aluno\downloads\space3d\object.h
+	<iostream>
+	<vector>
+	<glm/glm.hpp>
+
+1544567058 c:\users\aluno\downloads\space3d\shot.h
+	<GL/glut.h>
+	<glm/glm.hpp>
+	<vector>
+
+1544466514 source:c:\users\aluno\downloads\space3d\camera.cpp
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtx/rotate_vector.hpp>
+	<iostream>
+	"Camera.h"
+
+1544468868 c:\users\aluno\downloads\space3d\camera.h
+	<GL/glut.h>
+	<glm/vec2.hpp>
+
+1544471748 source:c:\users\aluno\downloads\space3d\input.cpp
+
+1544658540 c:\users\aluno\downloads\space3d\input.h
+	"Camera.h"
+	"Ship.h"
+	<glm/glm.hpp>
+	<GL/glut.h>
+
+1544658253 c:\users\aluno\downloads\space3d\ship.h
+	<glm/glm.hpp>
+	"Object.h"
+	"Shot.h"
+	"Light.h"
+	<vector>
+
+1544660171 source:c:\users\aluno\downloads\space3d\main.cpp
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<iostream>
+	<ctype.h>
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtx/rotate_vector.hpp>
+	<vector>
+	<sstream>
+	<fstream>
+	<time.h>
+	"imageloader.h"
+	"Camera.h"
+	"Util.h"
+	"Ship.h"
+	"Light.h"
+	"Material.h"
+	"Input.h"
+
+1544463180 c:\users\aluno\downloads\space3d\util.h
+	<iostream>
+	<vector>
+	<fstream>
+
+1544471746 c:\users\aluno\downloads\space3d\input.cpp
+
+1544659105 source:c:\users\aluno\downloads\space3d\object.cpp
+	<windows.h>
+	"Object.h"
+	"Util.h"
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<GL/glut.h>
+	<fstream>
+
+1544658236 source:c:\users\aluno\downloads\space3d\ship.cpp
+	"Ship.h"
+	<GL/glut.h>
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
+
+1544659483 source:c:\users\aluno\downloads\space3d\shot.cpp
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<iostream>
+	<ctype.h>
+	"Shot.h"
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
+
+1544314366 source:c:\users\aluno\downloads\space3d\util.cpp
+	"Util.h"
+	<sstream>
+
+1341006776 c:\program files (x86)\codeblocks\mingw\include\time.h
+	<_mingw.h>
+	<stddef.h>
+
+1542722312 source:c:\users\aluno\downloads\space3d\imageloader.cpp
+	<assert.h>
+	<fstream>
+	"imageloader.h"
+
+1341010370 c:\program files (x86)\codeblocks\mingw\include\assert.h
+	<_mingw.h>
+
+1454189818 c:\users\aluno\downloads\space3d\imageloader.h
+
+1544463468 source:c:\users\aluno\downloads\space3d (2) (1)\space3d\asteroid.cpp
+	"Asteroid.h"
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
+
+1544462566 c:\users\aluno\downloads\space3d (2) (1)\space3d\asteroid.h
+	<glm/glm.hpp>
+	"Object.h"
+	"Shot.h"
+	<vector>
+
+1544462372 c:\users\aluno\downloads\space3d (2) (1)\space3d\object.h
+	<iostream>
+	<vector>
+	<glm/glm.hpp>
+
+1544567056 c:\users\aluno\downloads\space3d (2) (1)\space3d\shot.h
+	<GL/glut.h>
+	<glm/glm.hpp>
+	<vector>
+
+1544466514 source:c:\users\aluno\downloads\space3d (2) (1)\space3d\camera.cpp
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtx/rotate_vector.hpp>
+	<iostream>
+	"Camera.h"
+
+1544468868 c:\users\aluno\downloads\space3d (2) (1)\space3d\camera.h
+	<GL/glut.h>
+	<glm/vec2.hpp>
+
+1542722312 source:c:\users\aluno\downloads\space3d (2) (1)\space3d\imageloader.cpp
+	<assert.h>
+	<fstream>
+	"imageloader.h"
+
+1454189818 c:\users\aluno\downloads\space3d (2) (1)\space3d\imageloader.h
+
+1544471748 source:c:\users\aluno\downloads\space3d (2) (1)\space3d\input.cpp
+
+1544572146 source:c:\users\aluno\downloads\space3d (2) (1)\space3d\main.cpp
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<iostream>
+	<ctype.h>
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtx/rotate_vector.hpp>
+	<vector>
+	<sstream>
+	<fstream>
+	<time.h>
+	"imageloader.h"
+	"Camera.h"
+	"Util.h"
+	"Ship.h"
+	"Light.h"
+	"Material.h"
+	"Input.h"
+
+1544463180 c:\users\aluno\downloads\space3d (2) (1)\space3d\util.h
+	<iostream>
+	<vector>
+	<fstream>
+
+1544569449 c:\users\aluno\downloads\space3d (2) (1)\space3d\ship.h
+	<glm/glm.hpp>
+	"Object.h"
+	"Shot.h"
+	"Light.h"
+	<vector>
+
+1544489300 c:\users\aluno\downloads\space3d (2) (1)\space3d\input.h
+	"Camera.h"
+	"Ship.h"
+	<glm/glm.hpp>
+	<GL/glut.h>
+
+1544571962 source:c:\users\aluno\downloads\space3d (2) (1)\space3d\object.cpp
+	<windows.h>
+	"Object.h"
+	"Util.h"
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<GL/glut.h>
+	<fstream>
+
+1544574007 source:c:\users\aluno\downloads\space3d (2) (1)\space3d\ship.cpp
+	"Ship.h"
+	<GL/glut.h>
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
+
+1544566900 source:c:\users\aluno\downloads\space3d (2) (1)\space3d\shot.cpp
+	"Shot.h"
+	<windows.h>
+	<iostream>
+	<GL/glut.h>
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
+
+1544314366 source:c:\users\aluno\downloads\space3d (2) (1)\space3d\util.cpp
+	"Util.h"
+	<sstream>
+
+1544570281 c:\users\aluno\downloads\space3d (2) (1)\space3d\light.h
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<glm/glm.hpp>
+
+1544573645 source:c:\users\aluno\downloads\space3d (2) (1)\space3d\light.cpp
+	"Light.h"
+	<glm/gtc/type_ptr.hpp>
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../gtc/vec1.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\gtc\quaternion.hpp
+	"../gtc/constants.hpp"
+	"../gtc/matrix_transform.hpp"
+	"../ext/vector_relational.hpp"
+	"../ext/quaternion_common.hpp"
+	"../ext/quaternion_float.hpp"
+	"../ext/quaternion_float_precision.hpp"
+	"../ext/quaternion_double.hpp"
+	"../ext/quaternion_double_precision.hpp"
+	"../ext/quaternion_relational.hpp"
+	"../ext/quaternion_geometric.hpp"
+	"../ext/quaternion_trigonometric.hpp"
+	"../ext/quaternion_transform.hpp"
+	"../detail/type_mat3x3.hpp"
+	"../detail/type_mat4x4.hpp"
+	"../detail/type_vec3.hpp"
+	"../detail/type_vec4.hpp"
+	"quaternion.inl"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\quaternion_common.hpp
+	"../ext/scalar_constants.hpp"
+	"../ext/quaternion_geometric.hpp"
+	"../common.hpp"
+	"../trigonometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_common.inl"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\quaternion_geometric.hpp
+	"../geometric.hpp"
+	"../exponential.hpp"
+	"../ext/vector_relational.hpp"
+	"quaternion_geometric.inl"
+
+1535531570 c:\program files (x86)\codeblocks\mingw\include\glm\ext\quaternion_geometric.inl
+
+1535531570 c:\program files (x86)\codeblocks\mingw\include\glm\ext\quaternion_common.inl
+	"quaternion_common_simd.inl"
+
+1535531570 c:\program files (x86)\codeblocks\mingw\include\glm\ext\quaternion_common_simd.inl
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\quaternion_float.hpp
+	"../detail/type_quat.hpp"
+
+1540992241 c:\program files (x86)\codeblocks\mingw\include\glm\detail\type_quat.hpp
+	"../detail/type_mat3x3.hpp"
+	"../detail/type_mat4x4.hpp"
+	"../detail/type_vec3.hpp"
+	"../detail/type_vec4.hpp"
+	"../ext/vector_relational.hpp"
+	"../ext/quaternion_relational.hpp"
+	"../gtc/constants.hpp"
+	"../gtc/matrix_transform.hpp"
+	"type_quat.inl"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\quaternion_relational.hpp
+	"../vector_relational.hpp"
+	"quaternion_relational.inl"
+
+1535531570 c:\program files (x86)\codeblocks\mingw\include\glm\ext\quaternion_relational.inl
+
+1540992241 c:\program files (x86)\codeblocks\mingw\include\glm\detail\type_quat.inl
+	"../trigonometric.hpp"
+	"../exponential.hpp"
+	"../ext/quaternion_geometric.hpp"
+	<limits>
+	"type_quat_simd.inl"
+
+1533818822 c:\program files (x86)\codeblocks\mingw\include\glm\detail\type_quat_simd.inl
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\quaternion_float_precision.hpp
+	"../detail/type_quat.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\quaternion_double.hpp
+	"../detail/type_quat.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\quaternion_double_precision.hpp
+	"../detail/type_quat.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\quaternion_trigonometric.hpp
+	"../trigonometric.hpp"
+	"../exponential.hpp"
+	"scalar_constants.hpp"
+	"vector_relational.hpp"
+	<limits>
+	"quaternion_trigonometric.inl"
+
+1535531570 c:\program files (x86)\codeblocks\mingw\include\glm\ext\quaternion_trigonometric.inl
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\quaternion_transform.hpp
+	"../common.hpp"
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"quaternion_transform.inl"
+
+1535531570 c:\program files (x86)\codeblocks\mingw\include\glm\ext\quaternion_transform.inl
+
+1535531570 c:\program files (x86)\codeblocks\mingw\include\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	"epsilon.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1535531570 c:\program files (x86)\codeblocks\mingw\include\glm\gtc\quaternion_simd.inl
+
+1533818822 c:\program files (x86)\codeblocks\mingw\include\glm\gtc\vec1.hpp
+	"../ext/vector_bool1.hpp"
+	"../ext/vector_bool1_precision.hpp"
+	"../ext/vector_float1.hpp"
+	"../ext/vector_float1_precision.hpp"
+	"../ext/vector_double1.hpp"
+	"../ext/vector_double1_precision.hpp"
+	"../ext/vector_int1.hpp"
+	"../ext/vector_int1_precision.hpp"
+	"../ext/vector_uint1.hpp"
+	"../ext/vector_uint1_precision.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\vector_bool1.hpp
+	"../detail/type_vec1.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\vector_bool1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\vector_float1.hpp
+	"../detail/type_vec1.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\vector_float1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\vector_double1.hpp
+	"../detail/type_vec1.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\vector_double1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\vector_int1.hpp
+	"../detail/type_vec1.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\vector_int1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\vector_uint1.hpp
+	"../detail/type_vec1.hpp"
+
+1537176751 c:\program files (x86)\codeblocks\mingw\include\glm\ext\vector_uint1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1533818822 c:\program files (x86)\codeblocks\mingw\include\glm\gtc\type_ptr.inl
+	<cstring>
+
+1544571310 source:c:\users\aluno\downloads\space3d (2) (1)\space3d\material.cpp
+	"Material.h"
+	<glm/gtc/type_ptr.hpp>
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+
+1544569957 c:\users\aluno\downloads\space3d (2) (1)\space3d\material.h
+	<glm/glm.hpp>
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+
+1544463468 source:c:\users\aluno\downloads\space3d (3) (1)\space3d (2) (1)\space3d\asteroid.cpp
+	"Asteroid.h"
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
+
+1544462566 c:\users\aluno\downloads\space3d (3) (1)\space3d (2) (1)\space3d\asteroid.h
+	<glm/glm.hpp>
+	"Object.h"
+	"Shot.h"
+	<vector>
+
+1544462372 c:\users\aluno\downloads\space3d (3) (1)\space3d (2) (1)\space3d\object.h
+	<iostream>
+	<vector>
+	<glm/glm.hpp>
+
+1544567058 c:\users\aluno\downloads\space3d (3) (1)\space3d (2) (1)\space3d\shot.h
+	<GL/glut.h>
+	<glm/glm.hpp>
+	<vector>
+
+1544466514 source:c:\users\aluno\downloads\space3d (3) (1)\space3d (2) (1)\space3d\camera.cpp
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtx/rotate_vector.hpp>
+	<iostream>
+	"Camera.h"
+
+1544468868 c:\users\aluno\downloads\space3d (3) (1)\space3d (2) (1)\space3d\camera.h
+	<GL/glut.h>
+	<glm/vec2.hpp>
+
+1542722312 source:c:\users\aluno\downloads\space3d (3) (1)\space3d (2) (1)\space3d\imageloader.cpp
+	<assert.h>
+	<fstream>
+	"imageloader.h"
+
+1454189818 c:\users\aluno\downloads\space3d (3) (1)\space3d (2) (1)\space3d\imageloader.h
+
+1544471748 source:c:\users\aluno\downloads\space3d (3) (1)\space3d (2) (1)\space3d\input.cpp
+
+1544574860 source:c:\users\aluno\downloads\space3d (3) (1)\space3d (2) (1)\space3d\main.cpp
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<iostream>
+	<ctype.h>
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtx/rotate_vector.hpp>
+	<vector>
+	<sstream>
+	<fstream>
+	<time.h>
+	"imageloader.h"
+	"Camera.h"
+	"Util.h"
+	"Ship.h"
+	"Light.h"
+	"Material.h"
+	"Input.h"
+
+1544463180 c:\users\aluno\downloads\space3d (3) (1)\space3d (2) (1)\space3d\util.h
+	<iostream>
+	<vector>
+	<fstream>
+
+1544641962 c:\users\aluno\downloads\space3d (3) (1)\space3d (2) (1)\space3d\ship.h
+	<glm/glm.hpp>
+	"Object.h"
+	"Shot.h"
+	"Light.h"
+	<vector>
+
+1544570282 c:\users\aluno\downloads\space3d (3) (1)\space3d (2) (1)\space3d\light.h
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<glm/glm.hpp>
+
+1544569958 c:\users\aluno\downloads\space3d (3) (1)\space3d (2) (1)\space3d\material.h
+	<glm/glm.hpp>
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+
+1544489300 c:\users\aluno\downloads\space3d (3) (1)\space3d (2) (1)\space3d\input.h
+	"Camera.h"
+	"Ship.h"
+	<glm/glm.hpp>
+	<GL/glut.h>
+
+1544571964 source:c:\users\aluno\downloads\space3d (3) (1)\space3d (2) (1)\space3d\object.cpp
+	<windows.h>
+	"Object.h"
+	"Util.h"
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<GL/glut.h>
+	<fstream>
+
+1544574008 source:c:\users\aluno\downloads\space3d (3) (1)\space3d (2) (1)\space3d\ship.cpp
+	"Ship.h"
+	<GL/glut.h>
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
+
+1544566902 source:c:\users\aluno\downloads\space3d (3) (1)\space3d (2) (1)\space3d\shot.cpp
+	"Shot.h"
+	<windows.h>
+	<iostream>
+	<GL/glut.h>
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
+
+1544314366 source:c:\users\aluno\downloads\space3d (3) (1)\space3d (2) (1)\space3d\util.cpp
+	"Util.h"
+	<sstream>
+
+1544573646 source:c:\users\aluno\downloads\space3d (3) (1)\space3d (2) (1)\space3d\light.cpp
+	"Light.h"
+	<glm/gtc/type_ptr.hpp>
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+
+1544571312 source:c:\users\aluno\downloads\space3d (3) (1)\space3d (2) (1)\space3d\material.cpp
+	"Material.h"
+	<glm/gtc/type_ptr.hpp>
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+
+1544570282 c:\users\aluno\downloads\space3d\light.h
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<glm/glm.hpp>
+
+1544569958 c:\users\aluno\downloads\space3d\material.h
+	<glm/glm.hpp>
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+
+1544573646 source:c:\users\aluno\downloads\space3d\light.cpp
+	"Light.h"
+	<glm/gtc/type_ptr.hpp>
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+
+1544571312 source:c:\users\aluno\downloads\space3d\material.cpp
+	"Material.h"
+	<glm/gtc/type_ptr.hpp>
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+
+1544716877 source:c:\users\guilherme franzoni\downloads\space3d (1)\space3d\asteroid.cpp
+	<windows.h>
+	<GL/glut.h>
+	<GL/glut.h>
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	"Asteroid.h"
+
+1544716864 c:\users\guilherme franzoni\downloads\space3d (1)\space3d\asteroid.h
+	<glm/glm.hpp>
+	"Object.h"
+	"Shot.h"
+	<vector>
+	<windows.h>
+	<GL/glut.h>
+
+1544649984 c:\users\guilherme franzoni\downloads\space3d (1)\space3d\object.h
+	<iostream>
+	<vector>
+	<glm/glm.hpp>
+
+1544567058 c:\users\guilherme franzoni\downloads\space3d (1)\space3d\shot.h
+	<GL/glut.h>
+	<glm/glm.hpp>
+	<vector>
+
+1544466514 source:c:\users\guilherme franzoni\downloads\space3d (1)\space3d\camera.cpp
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtx/rotate_vector.hpp>
+	<iostream>
+	"Camera.h"
+
+1544468868 c:\users\guilherme franzoni\downloads\space3d (1)\space3d\camera.h
+	<GL/glut.h>
+	<glm/vec2.hpp>
+
+1542722312 source:c:\users\guilherme franzoni\downloads\space3d (1)\space3d\imageloader.cpp
+	<assert.h>
+	<fstream>
+	"imageloader.h"
+
+1454189818 c:\users\guilherme franzoni\downloads\space3d (1)\space3d\imageloader.h
+
+1544471748 source:c:\users\guilherme franzoni\downloads\space3d (1)\space3d\input.cpp
+
+1544716840 source:c:\users\guilherme franzoni\downloads\space3d (1)\space3d\main.cpp
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<iostream>
+	<ctype.h>
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtx/rotate_vector.hpp>
+	<vector>
+	<sstream>
+	<fstream>
+	<time.h>
+	"imageloader.h"
+	"Camera.h"
+	"Util.h"
+	"Ship.h"
+	"Light.h"
+	"Material.h"
+	"Input.h"
+	"Asteroid.h"
+
+1544463180 c:\users\guilherme franzoni\downloads\space3d (1)\space3d\util.h
+	<iostream>
+	<vector>
+	<fstream>
+
+1544716211 c:\users\guilherme franzoni\downloads\space3d (1)\space3d\ship.h
+	<glm/glm.hpp>
+	"Object.h"
+	"Shot.h"
+	"Light.h"
+	<vector>
+
+1544570282 c:\users\guilherme franzoni\downloads\space3d (1)\space3d\light.h
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<glm/glm.hpp>
+
+1544569958 c:\users\guilherme franzoni\downloads\space3d (1)\space3d\material.h
+	<glm/glm.hpp>
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+
+1544658542 c:\users\guilherme franzoni\downloads\space3d (1)\space3d\input.h
+	"Camera.h"
+	"Ship.h"
+	<glm/glm.hpp>
+	<GL/glut.h>
+
+1544659106 source:c:\users\guilherme franzoni\downloads\space3d (1)\space3d\object.cpp
+	<windows.h>
+	"Object.h"
+	"Util.h"
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<GL/glut.h>
+	<fstream>
+
+1544658238 source:c:\users\guilherme franzoni\downloads\space3d (1)\space3d\ship.cpp
+	"Ship.h"
+	<GL/glut.h>
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
+
+1544659484 source:c:\users\guilherme franzoni\downloads\space3d (1)\space3d\shot.cpp
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<iostream>
+	<ctype.h>
+	"Shot.h"
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
+
+1544314366 source:c:\users\guilherme franzoni\downloads\space3d (1)\space3d\util.cpp
+	"Util.h"
+	<sstream>
+
+1544573646 source:c:\users\guilherme franzoni\downloads\space3d (1)\space3d\light.cpp
+	"Light.h"
+	<glm/gtc/type_ptr.hpp>
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+
+1544571312 source:c:\users\guilherme franzoni\downloads\space3d (1)\space3d\material.cpp
+	"Material.h"
+	<glm/gtc/type_ptr.hpp>
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+
+1544917763 source:c:\users\aluno\desktop\space3d\asteroid.cpp
+	<windows.h>
+	<GL/glut.h>
+	<GL/glut.h>
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	"Asteroid.h"
+
+1544915796 c:\users\aluno\desktop\space3d\asteroid.h
+	<glm/glm.hpp>
+	"Object.h"
+	"Shot.h"
+	<vector>
+	<windows.h>
+	<GL/glut.h>
+
+1544916996 c:\users\aluno\desktop\space3d\object.h
+	"Util.h"
+	<iostream>
+	<vector>
+	<glm/glm.hpp>
+
+1544916180 c:\users\aluno\desktop\space3d\shot.h
+	<GL/glut.h>
+	<glm/glm.hpp>
+	<vector>
+	"Util.h"
+	"Object.h"
+
+1544807732 source:c:\users\aluno\desktop\space3d\camera.cpp
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtx/rotate_vector.hpp>
+	<iostream>
+	"Camera.h"
+
+1544807732 c:\users\aluno\desktop\space3d\camera.h
+	<GL/glut.h>
+	<glm/vec2.hpp>
+
+1544807732 source:c:\users\aluno\desktop\space3d\imageloader.cpp
+	<assert.h>
+	<fstream>
+	"imageloader.h"
+
+1544807732 c:\users\aluno\desktop\space3d\imageloader.h
+
+1544807732 source:c:\users\aluno\desktop\space3d\input.cpp
+
+1544807732 source:c:\users\aluno\desktop\space3d\light.cpp
+	"Light.h"
+	<glm/gtc/type_ptr.hpp>
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+
+1544807732 c:\users\aluno\desktop\space3d\light.h
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<glm/glm.hpp>
+
+1544807732 source:c:\users\aluno\desktop\space3d\material.cpp
+	"Material.h"
+	<glm/gtc/type_ptr.hpp>
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+
+1544807732 c:\users\aluno\desktop\space3d\material.h
+	<glm/glm.hpp>
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+
+1544917001 source:c:\users\aluno\desktop\space3d\object.cpp
+	<windows.h>
+	"Object.h"
+	"Util.h"
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<GL/glut.h>
+	<fstream>
+
+1544906810 c:\users\aluno\desktop\space3d\util.h
+	<iostream>
+	<vector>
+	<fstream>
+	<glm/glm.hpp>
+
+1544917751 source:c:\users\aluno\desktop\space3d\ship.cpp
+	<windows.h>
+	<GL/glut.h>
+	<GL/glut.h>
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	"Ship.h"
+
+1544916210 c:\users\aluno\desktop\space3d\ship.h
+	<glm/glm.hpp>
+	"Object.h"
+	"Shot.h"
+	"Light.h"
+	"Util.h"
+	<vector>
+
+1544917742 source:c:\users\aluno\desktop\space3d\shot.cpp
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<iostream>
+	<ctype.h>
+	"Shot.h"
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
+
+1544807732 source:c:\users\aluno\desktop\space3d\util.cpp
+	"Util.h"
+	<sstream>
+
+1544917665 source:c:\users\aluno\desktop\space3d\main.cpp
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<iostream>
+	<ctype.h>
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtx/rotate_vector.hpp>
+	<vector>
+	<sstream>
+	<fstream>
+	<time.h>
+	"imageloader.h"
+	"Camera.h"
+	"Util.h"
+	"Ship.h"
+	"Light.h"
+	"Material.h"
+	"Input.h"
+	"Asteroid.h"
+	"LifeBonus.h"
+	"ScoreBonus.h"
+
+1544916215 c:\users\aluno\desktop\space3d\input.h
+	"Camera.h"
+	"Ship.h"
+	<glm/glm.hpp>
+	<GL/glut.h>
+
+1544917760 source:c:\users\aluno\desktop\space3d\lifebonus.cpp
+	<windows.h>
+	<GL/glut.h>
+	<GL/glut.h>
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	"LifeBonus.h"
+
+1544906048 c:\users\aluno\desktop\space3d\lifebonus.h
+	<glm/glm.hpp>
+	"Object.h"
+	"Shot.h"
+	"Light.h"
+	"Util.h"
+	<vector>
+
+1544917757 source:c:\users\aluno\desktop\space3d\scorebonus.cpp
+	<windows.h>
+	<GL/glut.h>
+	<GL/glut.h>
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	"ScoreBonus.h"
+
+1544906018 c:\users\aluno\desktop\space3d\scorebonus.h
+	<glm/glm.hpp>
+	"Object.h"
+	"Shot.h"
+	"Light.h"
+	<vector>
+
+1341010374 c:\program files (x86)\codeblocks\mingw\include\math.h
+	<_mingw.h>
+
+1544982022 source:c:\users\guilherme franzoni\desktop\space3d\asteroid.cpp
+	<windows.h>
+	<GL/glut.h>
+	<GL/glut.h>
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	"Asteroid.h"
+
+1544982004 c:\users\guilherme franzoni\desktop\space3d\asteroid.h
+	<glm/glm.hpp>
+	"Object.h"
+	"Shot.h"
+	<vector>
+	<windows.h>
+	<GL/glut.h>
+
+1544981949 c:\users\guilherme franzoni\desktop\space3d\object.h
+	"Util.h"
+	<iostream>
+	<vector>
+	<glm/glm.hpp>
+
+1544992256 c:\users\guilherme franzoni\desktop\space3d\util.h
+	<iostream>
+	<vector>
+	<fstream>
+	<glm/glm.hpp>
+
+1544982117 c:\users\guilherme franzoni\desktop\space3d\shot.h
+	<GL/glut.h>
+	<glm/glm.hpp>
+	<vector>
+	"Util.h"
+	"Object.h"
+
+1544807732 source:c:\users\guilherme franzoni\desktop\space3d\camera.cpp
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtx/rotate_vector.hpp>
+	<iostream>
+	"Camera.h"
+
+1544807732 c:\users\guilherme franzoni\desktop\space3d\camera.h
+	<GL/glut.h>
+	<glm/vec2.hpp>
+
+1544807732 source:c:\users\guilherme franzoni\desktop\space3d\imageloader.cpp
+	<assert.h>
+	<fstream>
+	"imageloader.h"
+
+1544807732 c:\users\guilherme franzoni\desktop\space3d\imageloader.h
+
+1544807732 source:c:\users\guilherme franzoni\desktop\space3d\input.cpp
+
+1544982567 source:c:\users\guilherme franzoni\desktop\space3d\lifebonus.cpp
+	<windows.h>
+	<GL/glut.h>
+	<GL/glut.h>
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	"LifeBonus.h"
+
+1544982004 c:\users\guilherme franzoni\desktop\space3d\lifebonus.h
+	<glm/glm.hpp>
+	"Object.h"
+	"Shot.h"
+	"Light.h"
+	"Util.h"
+	<vector>
+
+1544807732 c:\users\guilherme franzoni\desktop\space3d\light.h
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<glm/glm.hpp>
+
+1544807732 source:c:\users\guilherme franzoni\desktop\space3d\light.cpp
+	"Light.h"
+	<glm/gtc/type_ptr.hpp>
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+
+1544994225 source:c:\users\guilherme franzoni\desktop\space3d\main.cpp
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<iostream>
+	<ctype.h>
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtx/rotate_vector.hpp>
+	<vector>
+	<sstream>
+	<fstream>
+	<time.h>
+	"imageloader.h"
+	"Camera.h"
+	"Util.h"
+	"Ship.h"
+	"Light.h"
+	"Material.h"
+	"Input.h"
+	"Asteroid.h"
+	"LifeBonus.h"
+	"ScoreBonus.h"
+
+1544992216 c:\users\guilherme franzoni\desktop\space3d\ship.h
+	<glm/glm.hpp>
+	"Object.h"
+	"Shot.h"
+	"Light.h"
+	"Util.h"
+	<vector>
+
+1544807732 c:\users\guilherme franzoni\desktop\space3d\material.h
+	<glm/glm.hpp>
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+
+1544984553 c:\users\guilherme franzoni\desktop\space3d\input.h
+	"Camera.h"
+	"Ship.h"
+	<glm/glm.hpp>
+
+1544982004 c:\users\guilherme franzoni\desktop\space3d\scorebonus.h
+	<glm/glm.hpp>
+	"Object.h"
+	"Shot.h"
+	"Light.h"
+	<vector>
+
+1544807732 source:c:\users\guilherme franzoni\desktop\space3d\material.cpp
+	"Material.h"
+	<glm/gtc/type_ptr.hpp>
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+
+1544982307 source:c:\users\guilherme franzoni\desktop\space3d\object.cpp
+	<windows.h>
+	"Object.h"
+	"Util.h"
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<GL/glut.h>
+	<fstream>
+
+1544982057 source:c:\users\guilherme franzoni\desktop\space3d\scorebonus.cpp
+	<windows.h>
+	<GL/glut.h>
+	<GL/glut.h>
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	"ScoreBonus.h"
+
+1544982065 source:c:\users\guilherme franzoni\desktop\space3d\ship.cpp
+	<windows.h>
+	<GL/glut.h>
+	<GL/glut.h>
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	"Ship.h"
+
+1544982004 source:c:\users\guilherme franzoni\desktop\space3d\shot.cpp
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<iostream>
+	<ctype.h>
+	"Shot.h"
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
+
+1544807732 source:c:\users\guilherme franzoni\desktop\space3d\util.cpp
+	"Util.h"
+	<sstream>
+
+1545247902 source:c:\space3d\asteroid.cpp
+	<windows.h>
+	<GL/glut.h>
+	<GL/glut.h>
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	"Asteroid.h"
+
+1545247902 c:\space3d\asteroid.h
+	<glm/glm.hpp>
+	"Object.h"
+	"Shot.h"
+	<vector>
+	<windows.h>
+	<GL/glut.h>
+
+1545247902 c:\space3d\object.h
+	"Util.h"
+	<iostream>
+	<vector>
+	<glm/glm.hpp>
+
+1545247902 c:\space3d\util.h
+	<iostream>
+	<vector>
+	<fstream>
+	<glm/glm.hpp>
+
+1545247902 c:\space3d\shot.h
+	<GL/glut.h>
+	<glm/glm.hpp>
+	<vector>
+	"Util.h"
+	"Object.h"
+
+1544807732 source:c:\space3d\camera.cpp
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtx/rotate_vector.hpp>
+	<iostream>
+	"Camera.h"
+
+1544807732 c:\space3d\camera.h
+	<GL/glut.h>
+	<glm/vec2.hpp>
+
+1544807732 source:c:\space3d\imageloader.cpp
+	<assert.h>
+	<fstream>
+	"imageloader.h"
+
+1544807732 c:\space3d\imageloader.h
+
+1544807732 source:c:\space3d\input.cpp
+
+1545247902 source:c:\space3d\lifebonus.cpp
+	<windows.h>
+	<GL/glut.h>
+	<GL/glut.h>
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	"LifeBonus.h"
+
+1545247902 c:\space3d\lifebonus.h
+	<glm/glm.hpp>
+	"Object.h"
+	"Shot.h"
+	"Light.h"
+	"Util.h"
+	<vector>
+
+1545328472 c:\space3d\light.h
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<glm/glm.hpp>
+
+1545342318 source:c:\space3d\light.cpp
+	"Light.h"
+	<glm/gtc/type_ptr.hpp>
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+
+1545247902 source:c:\space3d\material.cpp
+	"Material.h"
+	<glm/gtc/type_ptr.hpp>
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+
+1545247902 c:\space3d\material.h
+	<glm/glm.hpp>
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+
+1545428660 source:c:\space3d\object.cpp
+	<windows.h>
+	"Object.h"
+	"Util.h"
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<GL/glut.h>
+	<fstream>
+
+1545247902 source:c:\space3d\scorebonus.cpp
+	<windows.h>
+	<GL/glut.h>
+	<GL/glut.h>
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	"ScoreBonus.h"
+
+1545247902 c:\space3d\scorebonus.h
+	<glm/glm.hpp>
+	"Object.h"
+	"Shot.h"
+	"Light.h"
+	<vector>
+
+1545273998 source:c:\space3d\ship.cpp
+	<windows.h>
+	<GL/glut.h>
+	<GL/glut.h>
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	"Ship.h"
+
+1545274002 c:\space3d\ship.h
+	<glm/glm.hpp>
+	"Object.h"
+	"Shot.h"
+	"Light.h"
+	"Util.h"
+	"Timer.h"
+	<vector>
+
+1545247902 source:c:\space3d\shot.cpp
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<iostream>
+	<ctype.h>
+	"Shot.h"
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
+
+1545247902 source:c:\space3d\util.cpp
+	"Util.h"
+	<sstream>
+
+1545346236 source:c:\space3d\main.cpp
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<iostream>
+	<ctype.h>
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtx/rotate_vector.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<vector>
+	<sstream>
+	<fstream>
+	<time.h>
+	<mmsystem.h>
+	"Util.h"
+	"Ship.h"
+	"Light.h"
+	"Material.h"
+	"Input.h"
+	"Asteroid.h"
+	"LifeBonus.h"
+	"ScoreBonus.h"
+	"Timer.h"
+	"Sound.h"
+
+1545247902 c:\space3d\input.h
+	"Ship.h"
+	<glm/glm.hpp>
+
+1545247902 c:\space3d\timer.h
+	<sys/time.h>
+
+1545247902 source:c:\space3d\timer.cpp
+	"Timer.h"
+
+1341006780 c:\program files (x86)\codeblocks\mingw\include\sys\time.h
+	<time.h>
+
+1454270785 c:\program files (x86)\codeblocks\mingw\include\soundio.h
+	"endian.h"
+	<stdbool.h>
+
+1454270785 c:\program files (x86)\codeblocks\mingw\include\endian.h
+
+1545326838 source:c:\space3d\sound.cpp
+	"Sound.h"
+
+1545326478 c:\space3d\sound.h
+	<SFML/Audio.hpp>
+
+1525812018 c:\sfml-2.5.1\include\sfml\audio.hpp
+	<SFML/System.hpp>
+	<SFML/Audio/InputSoundFile.hpp>
+	<SFML/Audio/Listener.hpp>
+	<SFML/Audio/Music.hpp>
+	<SFML/Audio/OutputSoundFile.hpp>
+	<SFML/Audio/Sound.hpp>
+	<SFML/Audio/SoundBuffer.hpp>
+	<SFML/Audio/SoundBufferRecorder.hpp>
+	<SFML/Audio/SoundFileFactory.hpp>
+	<SFML/Audio/SoundFileReader.hpp>
+	<SFML/Audio/SoundFileWriter.hpp>
+	<SFML/Audio/SoundRecorder.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/Audio/SoundStream.hpp>
+
+1525812018 c:\sfml-2.5.1\include\sfml\system.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Err.hpp>
+	<SFML/System/FileInputStream.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Lock.hpp>
+	<SFML/System/MemoryInputStream.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Sleep.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/System/Utf.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+
+1539635488 c:\sfml-2.5.1\include\sfml\config.hpp
+	"TargetConditionals.h"
+
+1525812018 c:\sfml-2.5.1\include\sfml\system\clock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1525812018 c:\sfml-2.5.1\include\sfml\system\export.hpp
+	<SFML/Config.hpp>
+
+1525812018 c:\sfml-2.5.1\include\sfml\system\time.hpp
+	<SFML/System/Export.hpp>
+
+1525812018 c:\sfml-2.5.1\include\sfml\system\err.hpp
+	<SFML/System/Export.hpp>
+	<ostream>
+
+1539635488 c:\sfml-2.5.1\include\sfml\system\fileinputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdio>
+	<string>
+
+1525812018 c:\sfml-2.5.1\include\sfml\system\inputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+
+1525812018 c:\sfml-2.5.1\include\sfml\system\noncopyable.hpp
+	<SFML/System/Export.hpp>
+
+1525812018 c:\sfml-2.5.1\include\sfml\system\lock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812018 c:\sfml-2.5.1\include\sfml\system\memoryinputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Export.hpp>
+	<cstdlib>
+
+1525812018 c:\sfml-2.5.1\include\sfml\system\mutex.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812018 c:\sfml-2.5.1\include\sfml\system\sleep.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1525812018 c:\sfml-2.5.1\include\sfml\system\string.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Utf.hpp>
+	<iterator>
+	<locale>
+	<string>
+	<SFML/System/String.inl>
+
+1525812018 c:\sfml-2.5.1\include\sfml\system\utf.hpp
+	<SFML/Config.hpp>
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	<SFML/System/Utf.inl>
+
+1525812018 c:\sfml-2.5.1\include\sfml\system\utf.inl
+
+1525812018 c:\sfml-2.5.1\include\sfml\system\string.inl
+
+1525812018 c:\sfml-2.5.1\include\sfml\system\thread.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+	<SFML/System/Thread.inl>
+
+1525812018 c:\sfml-2.5.1\include\sfml\system\thread.inl
+
+1525812018 c:\sfml-2.5.1\include\sfml\system\threadlocal.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+
+1525812018 c:\sfml-2.5.1\include\sfml\system\threadlocalptr.hpp
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.inl>
+
+1525812018 c:\sfml-2.5.1\include\sfml\system\threadlocalptr.inl
+
+1525812018 c:\sfml-2.5.1\include\sfml\system\vector2.hpp
+	<SFML/System/Vector2.inl>
+
+1525812018 c:\sfml-2.5.1\include\sfml\system\vector2.inl
+
+1525812018 c:\sfml-2.5.1\include\sfml\system\vector3.hpp
+	<SFML/System/Vector3.inl>
+
+1525812018 c:\sfml-2.5.1\include\sfml\system\vector3.inl
+
+1525812018 c:\sfml-2.5.1\include\sfml\audio\inputsoundfile.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<algorithm>
+
+1525812018 c:\sfml-2.5.1\include\sfml\audio\export.hpp
+	<SFML/Config.hpp>
+
+1525812018 c:\sfml-2.5.1\include\sfml\audio\listener.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Vector3.hpp>
+
+1525812018 c:\sfml-2.5.1\include\sfml\audio\music.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundStream.hpp>
+	<SFML/Audio/InputSoundFile.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+
+1525812018 c:\sfml-2.5.1\include\sfml\audio\soundstream.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/System/Mutex.hpp>
+	<cstdlib>
+
+1525812018 c:\sfml-2.5.1\include\sfml\audio\soundsource.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/AlResource.hpp>
+	<SFML/System/Vector3.hpp>
+
+1525812018 c:\sfml-2.5.1\include\sfml\audio\alresource.hpp
+	<SFML/Audio/Export.hpp>
+
+1525812018 c:\sfml-2.5.1\include\sfml\audio\outputsoundfile.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<string>
+
+1525812018 c:\sfml-2.5.1\include\sfml\audio\sound.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/System/Time.hpp>
+	<cstdlib>
+
+1525812018 c:\sfml-2.5.1\include\sfml\audio\soundbuffer.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/AlResource.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+	<set>
+
+1525812018 c:\sfml-2.5.1\include\sfml\audio\soundbufferrecorder.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundBuffer.hpp>
+	<SFML/Audio/SoundRecorder.hpp>
+	<vector>
+
+1525812018 c:\sfml-2.5.1\include\sfml\audio\soundrecorder.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/AlResource.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/Time.hpp>
+	<vector>
+	<string>
+
+1525812018 c:\sfml-2.5.1\include\sfml\audio\soundfilefactory.hpp
+	<SFML/Audio/Export.hpp>
+	<string>
+	<vector>
+	<SFML/Audio/SoundFileFactory.inl>
+
+1525812018 c:\sfml-2.5.1\include\sfml\audio\soundfilefactory.inl
+
+1525812018 c:\sfml-2.5.1\include\sfml\audio\soundfilereader.hpp
+	<SFML/Audio/Export.hpp>
+	<string>
+
+1525812018 c:\sfml-2.5.1\include\sfml\audio\soundfilewriter.hpp
+	<SFML/Audio/Export.hpp>
+	<string>
+
+1545244302 source:c:\users\guilherme franzoni\downloads\5c1d51d7320e6\space3d\asteroid.cpp
+	<windows.h>
+	<GL/glut.h>
+	<GL/glut.h>
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	"Asteroid.h"
+
+1545244302 c:\users\guilherme franzoni\downloads\5c1d51d7320e6\space3d\asteroid.h
+	<glm/glm.hpp>
+	"Object.h"
+	"Shot.h"
+	<vector>
+	<windows.h>
+	<GL/glut.h>
+
+1545244302 c:\users\guilherme franzoni\downloads\5c1d51d7320e6\space3d\object.h
+	"Util.h"
+	<iostream>
+	<vector>
+	<glm/glm.hpp>
+
+1545244302 c:\users\guilherme franzoni\downloads\5c1d51d7320e6\space3d\util.h
+	<iostream>
+	<vector>
+	<fstream>
+	<glm/glm.hpp>
+
+1545244302 c:\users\guilherme franzoni\downloads\5c1d51d7320e6\space3d\shot.h
+	<GL/glut.h>
+	<glm/glm.hpp>
+	<vector>
+	"Util.h"
+	"Object.h"
+
+1545244302 source:c:\users\guilherme franzoni\downloads\5c1d51d7320e6\space3d\lifebonus.cpp
+	<windows.h>
+	<GL/glut.h>
+	<GL/glut.h>
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	"LifeBonus.h"
+
+1545244302 c:\users\guilherme franzoni\downloads\5c1d51d7320e6\space3d\lifebonus.h
+	<glm/glm.hpp>
+	"Object.h"
+	"Shot.h"
+	"Light.h"
+	"Util.h"
+	<vector>
+
+1545324872 c:\users\guilherme franzoni\downloads\5c1d51d7320e6\space3d\light.h
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<glm/glm.hpp>
+
+1545338718 source:c:\users\guilherme franzoni\downloads\5c1d51d7320e6\space3d\light.cpp
+	"Light.h"
+	<glm/gtc/type_ptr.hpp>
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+
+1545244302 source:c:\users\guilherme franzoni\downloads\5c1d51d7320e6\space3d\material.cpp
+	"Material.h"
+	<glm/gtc/type_ptr.hpp>
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+
+1545244302 c:\users\guilherme franzoni\downloads\5c1d51d7320e6\space3d\material.h
+	<glm/glm.hpp>
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+
+1545425062 source:c:\users\guilherme franzoni\downloads\5c1d51d7320e6\space3d\object.cpp
+	<windows.h>
+	"Object.h"
+	"Util.h"
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<GL/glut.h>
+	<fstream>
+
+1545244302 source:c:\users\guilherme franzoni\downloads\5c1d51d7320e6\space3d\scorebonus.cpp
+	<windows.h>
+	<GL/glut.h>
+	<GL/glut.h>
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	"ScoreBonus.h"
+
+1545244302 c:\users\guilherme franzoni\downloads\5c1d51d7320e6\space3d\scorebonus.h
+	<glm/glm.hpp>
+	"Object.h"
+	"Shot.h"
+	"Light.h"
+	<vector>
+
+1545270398 source:c:\users\guilherme franzoni\downloads\5c1d51d7320e6\space3d\ship.cpp
+	<windows.h>
+	<GL/glut.h>
+	<GL/glut.h>
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	"Ship.h"
+
+1545270402 c:\users\guilherme franzoni\downloads\5c1d51d7320e6\space3d\ship.h
+	<glm/glm.hpp>
+	"Object.h"
+	"Shot.h"
+	"Light.h"
+	"Util.h"
+	"Timer.h"
+	<vector>
+
+1545244302 c:\users\guilherme franzoni\downloads\5c1d51d7320e6\space3d\timer.h
+	<sys/time.h>
+
+1545244302 source:c:\users\guilherme franzoni\downloads\5c1d51d7320e6\space3d\shot.cpp
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<iostream>
+	<ctype.h>
+	"Shot.h"
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
+
+1545323238 source:c:\users\guilherme franzoni\downloads\5c1d51d7320e6\space3d\sound.cpp
+	"Sound.h"
+
+1545322878 c:\users\guilherme franzoni\downloads\5c1d51d7320e6\space3d\sound.h
+	<SFML/Audio.hpp>
+
+1545244302 source:c:\users\guilherme franzoni\downloads\5c1d51d7320e6\space3d\timer.cpp
+	"Timer.h"
+
+1545244302 source:c:\users\guilherme franzoni\downloads\5c1d51d7320e6\space3d\util.cpp
+	"Util.h"
+	<sstream>
+
+1545425188 source:c:\users\guilherme franzoni\downloads\5c1d51d7320e6\space3d\main.cpp
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<iostream>
+	<ctype.h>
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtx/rotate_vector.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<vector>
+	<sstream>
+	<fstream>
+	<time.h>
+	<mmsystem.h>
+	"Util.h"
+	"Ship.h"
+	"Light.h"
+	"Material.h"
+	"Input.h"
+	"Asteroid.h"
+	"LifeBonus.h"
+	"ScoreBonus.h"
+	"Timer.h"
+	"Sound.h"
+
+1545244302 c:\users\guilherme franzoni\downloads\5c1d51d7320e6\space3d\input.h
+	"Ship.h"
+	<glm/glm.hpp>
+
